@@ -1,0 +1,18 @@
+% engine=luatex
+
+\ctxlua{dofile("pinyinize.lua")}
+
+\def\pinyinize{\ctxlua{toggle_pinyinize()}}
+
+% Insert here your favorite Chinese font
+\definefont[song][file:AdobeSongStd-Light.otf]
+
+\starttext
+
+\song
+
+\pinyinize
+
+床前明月光。
+
+\stoptext
