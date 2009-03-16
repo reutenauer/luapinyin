@@ -1,4 +1,9 @@
 Tentative support for pinyin in ConTeXt Mark IV, with Lua functions.
 
+Basic usage: go to tex, add a Chinese font, \definefont it in the TeX file, and
+compile the latter.
+
+It still doesn't really work, but we're making progress.
+
 	Arthur Reutenauer
 	Paris, 2009-03-16
